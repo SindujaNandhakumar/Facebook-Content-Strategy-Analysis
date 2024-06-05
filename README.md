@@ -35,8 +35,3 @@ Includes historical Facebook Live data, engagement metrics (likes, shares, comme
 
 **Analysis Outline**
 
-    **Part 1**: Exploratory Data Analysis
-    **Part 2**: Feature Engineering
-    **Part 3**: Model Building
-    **Part 4**: Model Evaluation
-    **Part 5**: Insights and Recommendation
