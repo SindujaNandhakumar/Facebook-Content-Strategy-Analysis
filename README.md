@@ -36,18 +36,23 @@ Includes historical Facebook Live data, engagement metrics (likes, shares, comme
 
 ## Analysis Outline
 
-**Part 1**:**Exploratory Data Analysis**
--Checked the data for any null values.
--Explored the distribution of different content types and engagement metrics..
+**Part 1**:**Exploratory Data Analysis**  
+Checked the data for any null values
+
+Explored the distribution of different content types and engagement metrics..
 
 **Part 2**: **Feature Engineering**
--Defined engagement columns and calculated total engagement.
--Standardized the dataset and conducted PCA to reduce dimensionality.
+
+Defined engagement columns and calculated total engagement.
+
+Standardized the dataset and conducted PCA to reduce dimensionality.
 
 **Part 3**: **Model Building**
+
 Built logistic regression models using original features, principal components, and cluster patterns.
 
 **Part 4**: **Model Evaluation**
+
 Evaluated the models based on accuracy, AUC score, and confusion matrix
 
 **Part 5**: **Insight and Recommendation**
