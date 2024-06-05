@@ -37,6 +37,7 @@ Includes historical Facebook Live data, engagement metrics (likes, shares, comme
 ## Analysis Outline
 
 **Part 1**:**Exploratory Data Analysis**  
+
 Checked the data for any null values
 
 Explored the distribution of different content types and engagement metrics..
