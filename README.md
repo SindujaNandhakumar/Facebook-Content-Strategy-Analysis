@@ -13,7 +13,9 @@ The findings from this analysis will provide valuable guidance for marketers and
 ## Overview
 
 **Best Performing Model**: The Logistic Regression model using original features stands out as the best model among those tested. It has the highest Test AUC Score of 0.678, indicating it effectively predicts whether the content is a photo or not. The model balances between sensitivity (detecting photos) and specificity (rejecting non-photos).
+
 **Optimal Features**: Feature selection was performed using Principal Component Analysis (PCA) and clustering to identify the most critical variables that impact social media engagement.
+
 **Target Variable**:The model predicts whether social media content is a photo (binary classification).
 
 ## Case - Marketing Consulting Firm in Thailand
@@ -32,6 +34,26 @@ Businesses and influencers in Thailand using social media for marketing.
 
 Includes historical Facebook Live data, engagement metrics (likes, shares, comments, emotional reactions), and content types.
 
+## Analysis Outline
 
-**Analysis Outline**
+**Part 1**:**Exploratory Data Analysis**
+-Checked the data for any null values.
+-Explored the distribution of different content types and engagement metrics..
+
+**Part 2**: **Feature Engineering**
+-Defined engagement columns and calculated total engagement.
+-Standardized the dataset and conducted PCA to reduce dimensionality.
+
+**Part 3**: **Model Building**
+Built logistic regression models using original features, principal components, and cluster patterns.
+
+**Part 4**: **Model Evaluation**
+Evaluated the models based on accuracy, AUC score, and confusion matrix
+
+**Part 5**: **Insight and Recommendation**
+
+**Conclusion**:
+
+The predictive model for social media content type (photo or not) enables the marketing consulting firm to provide data-driven recommendations for optimizing content strategy. The model's performance, with a high AUC score and balanced error metrics, demonstrates its robustness and reliability in real-world applications.
+
 
